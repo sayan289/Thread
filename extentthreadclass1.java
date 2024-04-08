@@ -33,7 +33,7 @@ public class extentthreadclass1 {
         t2.start();
         for(int i=0;i<5;i++)
         {
-        	System.out.println("This is main method");
+        	System.out.println("This is main method "+i);
         }
     }
 
