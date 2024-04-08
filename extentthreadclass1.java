@@ -31,7 +31,10 @@ public class extentthreadclass1 {
         Thread t2=new Thread(ob1);
         t2.setPriority(10);
         t2.start();
-        System.out.println("A new line is added");
+        for(int i=0;i<5;i++)
+        {
+        	System.out.println("This is main method");
+        }
     }
 
 }
